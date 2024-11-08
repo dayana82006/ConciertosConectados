@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "inter", sans-serif;
+   
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crea
-    columnas de al menos 200px que se expanden automáticamente */
-    }
+
 @media (max-width: 600px) {
     .container {
         display: block;
@@ -24,7 +22,8 @@
 }
 
 body {
-    margin: 4vh;
+    margin: 3vh;
+    background-color: #fdf7f7a6;
 }
 
 .top{
@@ -41,7 +40,7 @@ body {
     width: 6vh;
     height: 6vh;
     color: #333333;
-    background: #dddddd;
+    background-color: transparent;
     border: none;
     outline: none;
     border-radius: 50%;
@@ -62,7 +61,7 @@ h1{
     justify-content: center;
     width: 50px;
     height: 50px;
-    color: #333333;
+    color: #3b3939;
     background: #dddddd;
     border: none;
     outline: none;
@@ -83,7 +82,7 @@ h1{
     right: -10px;
     width: 25px;
     height: 25px;
-    background: rgb(163, 51, 51);
+    background: rgb(255, 0, 0);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -118,7 +117,9 @@ h1{
     display: grid;
     grid-template-rows: 1fr ;
     grid-template-columns:  1fr 9fr 1fr;
-
+    background-color: white;
+    padding: 1.5vh;
+    border-radius: 10px;
 }
 
 .input-search{
@@ -150,48 +151,101 @@ nav ul{
 }
 nav li{
     flex: 0 0 auto;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
 }
 nav a{
     text-decoration:none;
-    padding: 10px 15px;
+    padding: 1.5vh;
     color: black;
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+nav li:nth-child(1){
+    background-color: #e6e0fd;
+    border-radius: 10px;
+
+}
+nav li:nth-child(2){
+    background-color: #fdffdc;
+    border-radius: 10px;
+}
+nav li:nth-child(3){
+    background-color: #ffecdc;
+    border-radius: 10px;
+}
+nav li:nth-child(4){
+    background-color: #ddffdc;
+    border-radius: 10px;
+}
+nav li:nth-child(5){
+    background-color: #e0dcff;
+    border-radius: 10px;
+}
+nav li:nth-child(6){
+    background-color: #ddffdc;
+    border-radius: 10px;
 }
 nav a:hover{
-    background-color: #FFF5D7;
-    border-radius: 20px;
-    padding: 1vh
+    background-color: #0008506e;
+    border-radius: 10px;
+    
 }
 
+#trending-events{
+    position: relative;
+    background-color: transparent;
+}
+.top-trending{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vh; ;
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+.top-trending a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
 
+.info-event{
+    backdrop-filter: blur(15px);
+    position: absolute;
+    bottom:  10vh;
+    margin-left: 2vh;
+    width: 46vh;    
+    padding: 10px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: transparent;
+    border-radius: 15px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 .carousel {
+    margin-top: 3vh;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
-    height: 200px;
     overflow-x: scroll;
+    
 
     &>.carousel-item {
         flex: 1;
         flex-grow: 1;
-        min-width: 30%;
-        background-color: purple;
-        margin: 0 5px;
+        width: 100%;
+        height: 38vh;
+        max-width: 100%;
+        object-fit: cover;
+        margin: 0 4px;
     }
 }
+
+.carousel img{
+    width: 50vh;
+    height: 30vh;
+    border-radius: 20px;
+}
+
