@@ -13,23 +13,32 @@
 
 <body>
     <header>
+        <div class="top">
+            <i class="fa-solid fa-bars-staggered icon-button"></i>
+            <button type="button" class="icon-button">
+                <span class="material-icons">notifications</span>
+                <span class="icon-button__badge">2</span>
+            </button>
+
+        </div>
         <h1>Find</h1>
-        <h2>Trending Events</h2>
-        <button type="button" class="icon-button">
-            <span class="material-icons">notifications</span>
-            <span class="icon-button__badge">2</span>
-        </button>
-        <div class="search-container">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search events..." class="search-input" />
-            <i class="fa-solid fa-sliders"></i>
+        <h1 class="special-h1">Trending Events</h1> 
+        <div class="search-container grid">
+            <i class="grid-item icons fa-solid fa-magnifying-glass"></i>
+            <input type="search" class="grid-item input-search" placeholder="Search events..." class="search-input" />
+            <i class="icons fa-solid fa-sliders grid-item"></i>
         </div>
         <nav>
-            <a href="#">Music Concert</a>
-            <a href="#">Exhibition</a>
-            <a href="#">Stand Up Show</a>
-            <a href="#">Trending Events</a>
-            <a href="#">Events Near You</a>
+            <ul>
+                <li><a href="#">Music Concert</a></li>
+                <li><a href="#">Exhibition</a></li>
+                <li><a href="#">Stand Up Show</a></li>
+                <li><a href="#">Trending Events</a></li>
+                <li><a href="#">Events Near You</a></li>
+                <li><a href="#">Events Near You</a></li>
+            </ul>
+            
+        
         </nav>
     </header>
     <section id="trending-events">
