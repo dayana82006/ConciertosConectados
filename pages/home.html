@@ -1,249 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <script src="js/main.js"></script>
-  </head>
 
-  <body>
-    <header>
-      <div class="top">
-        <i class="fa-solid fa-bars-staggered icon-button"></i>
-        <button type="button" class="icon-button">
-          <span class="material-icons">notifications</span>
-          <span class="icon-button__badge">2</span>
-        </button>
-      </div>
-      <h1>Find</h1>
-      <h1 class="special-h1">Trending Events</h1>
-      <div class="search-container grid">
-        <i class="grid-item icons fa-solid fa-magnifying-glass"></i>
-        <input
-          type="search"
-          class="grid-item input-search"
-          placeholder="Search events..."
-          class="search-input"
-        />
-        <i class="icons fa-solid fa-sliders grid-item"></i>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">Music Concert</a></li>
-          <li><a href="#">Circus</a></li>
-          <li><a href="#">Theater</a></li>
-          <li><a href="#">Comedy</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Family</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="trending-events">
-      <div class="top-trending">
-        <b style="font-size: 2rem">Trending Events</b>
-        <a href="#">See all</a>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <script src="../js/main.js"></script>
+</head>
 
-      <div class="carousel">
-        <div class="carousel-item">
-          <div class="info-event">
-            <h3>Camilo: Nuestro lugar feliz</h3>
-            <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
-            <p><i class="fas fa-calendar-alt"></i> December 6 2024</p>
-            <p class="price">IDR800.000</p>
-          </div>
-          <img src="../images/conciertocamilo.jpg" alt="" />
+<body>
+  <header>
+    <div class="top">
+      <i class="fa-solid fa-bars-staggered icon-button"></i>
+      <button type="button" class="icon-button">
+        <span class="material-icons">notifications</span>
+        <span class="icon-button__badge">2</span>
+      </button>
+    </div>
+    <h1>Find</h1>
+    <h1 class="special-h1">Trending Events</h1>
+    <div class="search-container grid">
+      <i class="grid-item icons fa-solid fa-magnifying-glass"></i>
+      <input type="search" class="grid-item input-search" placeholder="Search events..." class="search-input" />
+      <i class="icons fa-solid fa-sliders grid-item"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Music Concert</a></li>
+        <li><a href="#">Circus</a></li>
+        <li><a href="#">Theater</a></li>
+        <li><a href="#">Comedy</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Family</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="trending-events">
+    <div class="top-trending">
+      <b style="font-size: 2rem">Trending Events</b>
+      <a href="#">See all</a>
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-item">
+        <div class="info-event">
+          <h3>Camilo: Nuestro lugar feliz</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i> December 6 2024</p>
+          <p class="price">IDR800.000</p>
         </div>
-        <div class="carousel-item">
-          <div class="info-event black">
-            <h3>Melendi</h3>
-            <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
-            <p><i class="fas fa-calendar-alt"></i> November 8 2024</p>
-            <p class="price">IDR800.000</p>
-          </div>
-          <img src="../images/conciertomelendi.png" alt="" />
-        </div>
-        <div class="carousel-item">
-          <div class="info-event">
-            <h3>Panorama Reik</h3>
-            <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
-            <p><i class="fas fa-calendar-alt"></i>2025</p>
-            <p class="price">IDR800.000</p>
-          </div>
-          <img src="../images/conciertoreik.jpg" alt="" />
-        </div>
-
-        <div class="carousel-item">
-          <div class="info-event">
-            <h3>Jose Madero</h3>
-            <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
-            <p><i class="fas fa-calendar-alt"></i>May 152025</p>
-            <p class="price">IDR800.000</p>
-          </div>
-          <img src="../images/JOSEMADERO_DETALLE.webp" alt="" />
-        </div>
+       <a href="../pages/description.html"><img src="../images/conciertocamilo.jpg" alt="" /></a> 
       </div>
-    </section>
-    <section>
-      <div class="top-trending">
-        <b font-size: 2rem;>Events Near You</b>
-        <a href="../pages/seeall-events.html">See all</a>
+      <div class="carousel-item">
+        <div class="info-event black">
+          <h3>Melendi</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i> November 8 2024</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <a href="../pages/description.html"><img src="../images/conciertomelendi.png" alt="" /></a>
       </div>
-      <div class="container">
-        <div class="events-grid">
-          <div class="event-card">
-            <img
-              src="../images/sinfonica.jpg"
-              alt="Muse: Will of the People"
-              class="event-image"
-            />
-            <div class="event-details">
-              <h3 class="event-title">
-                Orquesta Sinfónica Nacional de Colombia y Coro Nacional
-              </h3>
-              <p class="event-location">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                  />
-                </svg>
-                Teatro Mayor Bogota
-              </p>
-              <p class="event-date">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"
-                  />
-                </svg>
-                14- 15 December 2024
-              </p>
-              <p class="event-price">IDR500.000</p>
-            </div>
-          </div>
-          <div class="event-card">
-            <img
-              src="../images/c0f0d348-72e8-4ee7-818a-4138bb4848ee_2.webp"
-              alt="One Direction: Where We Are"
-              class="event-image"
-            />
-            <div class="event-details">
-              <h3 class="event-title">
-                Orquestas Juveniles de la Orquesta Filarmónica de Bogotá
-              </h3>
-              <p class="event-location">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                  />
-                </svg>
-                Teatro SantoDomingo Bogota
-              </p>
-              <p class="event-date">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"
-                  />
-                </svg>
-                15 December 2024
-              </p>
-              <p class="event-price">IDR800.000</p>
-            </div>
-          </div>
-          <div class="event-card">
-            <img
-              src="../images/duki.webp"
-              alt="One Direction: Where We Are"
-              class="event-image"
-            />
-            <div class="event-details">
-              <h3 class="event-title">DUKI American World Tour</h3>
-              <p class="event-location">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                  />
-                </svg>
-                Bogota
-              </p>
-              <p class="event-date">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"
-                  />
-                </svg>
-                Oct 29 2025
-              </p>
-              <p class="event-price">IDR800.000</p>
-            </div>
-          </div>
+      <div class="carousel-item">
+        <div class="info-event">
+          <h3>Panorama Reik</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i>2025</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <img src="../images/conciertoreik.jpg" alt="" />
+      </div>
 
-          <div class="event-card">
-            <img
-              src="../images/leyendarock.webp"
-              alt="One Direction: Where We Are"
-              class="event-image"
-            />
-            <div class="event-details">
-              <h3 class="event-title">Leyendas del Rock</h3>
-              <p class="event-location">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                  />
-                </svg>
-                Cefam Bogota
-              </p>
-              <p class="event-date">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"
-                  />
-                </svg>
-                Nov 9 2025
-              </p>
-              <p class="event-price">IDR800.000</p>
-            </div>
+      <div class="carousel-item">
+        <div class="info-event">
+          <h3>Jose Madero</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i>May 152025</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <img src="../images/JOSEMADERO_DETALLE.webp" alt="" />
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="top-trending">
+      <b font-size: 2rem;>Events Near You</b>
+      <a href="../pages/seeall-events.html">See all</a>
+    </div>
+    <div class="container">
+      <div class="events-grid">
+        <div class="event-card">
+          <img src="../images/sinfonica.jpg" alt="Muse: Will of the People" class="event-image" />
+          <div class="event-details">
+            <h3 class="event-title">
+              Orquesta Sinfónica Nacional de Colombia y Coro Nacional
+            </h3>
+            <p class="event-location">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+              Teatro Mayor Bogota
+            </p>
+            <p class="event-date">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
+              </svg>
+              14- 15 December 2024
+            </p>
+            <p class="event-price">IDR500.000</p>
           </div>
+        </div>
+        <div class="event-card">
+          <img src="../images/c0f0d348-72e8-4ee7-818a-4138bb4848ee_2.webp" alt="One Direction: Where We Are"
+            class="event-image" />
+          <div class="event-details">
+            <h3 class="event-title">
+              Orquestas Juveniles de la Orquesta Filarmónica de Bogotá
+            </h3>
+            <p class="event-location">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+              Teatro SantoDomingo Bogota
+            </p>
+            <p class="event-date">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
+              </svg>
+              15 December 2024
+            </p>
+            <p class="event-price">IDR800.000</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <img src="../images/duki.webp" alt="One Direction: Where We Are" class="event-image" />
+          <div class="event-details">
+            <h3 class="event-title">DUKI American World Tour</h3>
+            <p class="event-location">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+              Bogota
+            </p>
+            <p class="event-date">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
+              </svg>
+              Oct 29 2025
+            </p>
+            <p class="event-price">IDR800.000</p>
+          </div>
+        </div>
 
-          <div class="event-card">
-            <img
-              src="../images/pereira.webp"
-              alt="One Direction: Where We Are"
-              class="event-image"
-            />
-            <div class="event-details">
-              <h3 class="event-title">Pereira Music Fest</h3>
-              <p class="event-location">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                  />
-                </svg>
-                Teatro Santiago Pereira
-              </p>
-              <p class="event-date">
-                <svg class="icon" viewBox="0 0 24 24">
-                  <path
-                    d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"
-                  />
-                </svg>
-                25-30 Nov 2024
-              </p>
-              <p class="event-price">IDR800.000</p>
-            </div>
+        <div class="event-card">
+          <img src="../images/leyendarock.webp" alt="One Direction: Where We Are" class="event-image" />
+          <div class="event-details">
+            <h3 class="event-title">Leyendas del Rock</h3>
+            <p class="event-location">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+              Cefam Bogota
+            </p>
+            <p class="event-date">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
+              </svg>
+              Nov 9 2025
+            </p>
+            <p class="event-price">IDR800.000</p>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <img src="../images/pereira.webp" alt="One Direction: Where We Are" class="event-image" />
+          <div class="event-details">
+            <h3 class="event-title">Pereira Music Fest</h3>
+            <p class="event-location">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              </svg>
+              Teatro Santiago Pereira
+            </p>
+            <p class="event-date">
+              <svg class="icon" viewBox="0 0 24 24">
+                <path
+                  d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z" />
+              </svg>
+              25-30 Nov 2024
+            </p>
+            <p class="event-price">IDR800.000</p>
           </div>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
