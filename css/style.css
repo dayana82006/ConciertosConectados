@@ -325,7 +325,7 @@ nav a:hover {
   margin-top: 0.5rem;
 }
 
-/* Responsive */
+/* Responsive top */
 @media (min-width: 640px) {
   .event-image {
     height: 200px;
@@ -363,11 +363,6 @@ nav a:hover {
 }
 }
 
-.noti {
-  position: fixed;
-  top: 5%;
-  right: 5%;
-}
 
 
 .notificaciones-menu {
@@ -429,37 +424,5 @@ nav a:hover {
   .notificaciones-menu {
     width: 140px; 
     top: 35px; 
-  }
-}
-
-@media screen and (max-width:900px){
-  .noti{
-    position: fixed;
-    top: 5%;
-    right: 5%;
-  }
-}
-
-@media screen and (max-width:768px){
-  .noti{
-    position: fixed;
-    top: 5%;
-    right: 5%;
-  }
-}
-
-@media screen and (max-width:576px){
-  .noti{
-    position: fixed;
-    top: 5%;
-    right: 5%;
-  }
-}
-
-@media screen and (max-width:320px){
-  .noti{
-    position: fixed;
-    top: 5%;
-    right: 5%;
   }
 }
