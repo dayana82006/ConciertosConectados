@@ -362,3 +362,104 @@ nav a:hover {
   font-size: 3rem;
 }
 }
+
+.noti {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+
+.notificaciones-menu {
+  position: absolute;
+  top: 60px;
+  right: 10%;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: none; 
+  flex-direction: column;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto; 
+  z-index: 1;
+}
+
+.notificacion {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notificacion:last-child {
+  border-bottom: none;
+}
+
+.notificaciones-menu.show {
+  display: flex;
+}
+@media screen and (max-width: 1200px) {
+  .notificaciones-menu {
+    width: 230px; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .notificaciones-menu {
+    width: 200px; 
+    top: 50px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .notificaciones-menu {
+    width: 180px; 
+    top: 45px; 
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .notificaciones-menu {
+    width: 160px; 
+    top: 40px; 
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .notificaciones-menu {
+    width: 140px; 
+    top: 35px; 
+  }
+}
+
+@media screen and (max-width:900px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:576px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:320px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}

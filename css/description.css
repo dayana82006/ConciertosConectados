@@ -152,6 +152,7 @@ header{
 .config{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .btn-volver:hover{
@@ -168,6 +169,7 @@ header{
     position: absolute;
     top: 2vh;
     left: 2vw;
+    z-index: 1000;
 }
 
 
@@ -185,4 +187,5 @@ header{
     position: absolute;
     top: 2vh;
     right: 2vw;
+    z-index: 1000;
 }
