@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "inter", sans-serif;
-  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+    
 }
 html, body {
     height: 100%;
@@ -21,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
+    font-family: 'inter', sans-serif;
     color: #333;
 
     
@@ -30,7 +30,7 @@ body{
 @media (min-width: 537px){
     
 .img-ticket img{
-    width: 30vw !important;
+    width: 480px!important;
     border-radius:20px ;
     height: auto;
     margin-top: 1vh;
