@@ -1,7 +1,11 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+  <!-- Metadatos que definen el tipo de caracteres y la configuración del viewport para dispositivos móviles -->
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
@@ -15,12 +19,13 @@
   <header>
     <div class="top">
       <i class="fa-solid fa-bars-staggered icon-button"></i>
+         <!-- Botón de notificaciones -->
       <button type="button" class="icon-button" onclick="toggleMenu()">
         <span class="material-icons">notifications</span>
         <span class="icon-button__badge">2</span>
     </button>
     </div>
-    
+      <!-- Menú de notificaciones (oculto por defecto) -->
   <div class="notificaciones-menu" id="notificaciones-menu">
       <div class="notificacion">1) Nueva actualización disponible.</div>
       <div class="notificacion">2) Programación para conciertos de este mes.</div>
@@ -28,12 +33,14 @@
   </div>
     <h1>Find</h1>
     <h1 class="special-h1">Trending Events</h1>
+        <!-- Barra de búsqueda con íconos -->
     <div class="search-container grid">
       <i class="grid-item icons fa-solid fa-magnifying-glass"></i>
       <input type="search" class="grid-item input-search" placeholder="Search events..." class="search-input" />
       <i class="icons fa-solid fa-sliders grid-item"></i>
     </div>
     <nav>
+    <!-- Navegación de categorías de eventos -->
       <ul>
         <li><a href="#">Music Concert</a></li>
         <li><a href="#">Circus</a></li>
@@ -45,12 +52,14 @@
     </nav>
   </header>
   <section id="trending-events">
+      <!-- Sección de eventos populares -->
     <div class="top-trending">
       <b style="font-size: 2rem">Trending Events</b>
       <a href="#">See all</a>
     </div>
-
+  <!-- Carrusel de imagenes -->
     <div class="carousel">
+       <!-- Cada "carousel-item" es un evento -->
       <div class="carousel-item">
         <div class="info-event">
           <h3>Camilo: Nuestro lugar feliz</h3>
@@ -95,8 +104,10 @@
       <b font-size: 2rem;>Events Near You</b>
       <a href="../pages/seeall-events.html">See all</a>
     </div>
+      <!-- Cuadrícula de eventos -->
     <div class="container">
       <div class="events-grid">
+            <!-- Tarjeta de evento individual -->
         <div class="event-card">
           <img src="../images/sinfonica.jpg" alt="Muse: Will of the People" class="event-image" />
           <div class="event-details">

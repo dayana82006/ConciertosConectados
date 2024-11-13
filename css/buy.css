@@ -12,7 +12,7 @@ html, body {
     margin: 0;    
 }
 
-
+/*Estilo del body*/
 body{
     margin: 3vh;
     background: linear-gradient(0deg, rgb(255, 212, 255) 2%, rgb(103, 144, 226) 100%);
@@ -27,6 +27,7 @@ body{
     
 }
 
+/*Media para que sea responsive*/
 @media (min-width: 537px){
     
 .img-ticket img{
@@ -47,6 +48,8 @@ body{
     
 }
 }
+
+/*Estilo botones de volver y config*/
 
 .config{
     display: flex;
@@ -87,6 +90,7 @@ body{
     right: 2vw;
 }
 
+/* Estilo para tickets */
 .ticket{
     display: flex;
     flex-direction: column;
@@ -149,6 +153,8 @@ body{
     width: fit-content;
 }
 
+
+/* Estilo codigo de barras*/
 .code {
     width: 3px;
     height: 12vh;
@@ -162,6 +168,8 @@ body{
     width: 6px;
 }
 
+
+/* informacion del ticket, imagenes y descripcion*/
 .img-ticket{
     object-fit: cover;
 

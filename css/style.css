@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "inter", sans-serif;
 }
-
+/* estilo parte superior de volver */
 .volver{
     display: flex;
     justify-content: space-between;
@@ -32,6 +32,7 @@ body {
   background-color: #fdf7f7a6;
 }
 
+/* Estilos para la barra superior */
 .top {
   display: flex;
   justify-content: space-between;
@@ -59,6 +60,9 @@ body {
 h1 {
   color: black;
 }
+
+
+/* Estilos para los botones de iconos */
 
 .icon-button {
   position: relative;
@@ -100,6 +104,7 @@ h1 {
   color: rgb(75, 75, 75);
 }
 
+/* Estilos para la búsqueda */
 .grid :nth-child(1) {
   padding: 9px 0px 0px 10px;
   height: 5vh;
@@ -116,6 +121,7 @@ h1 {
   padding: 9px 4px 0px 5px;
 }
 
+/* Estilo para el campo de búsqueda */
 .search-container {
   display: grid;
   grid-template-rows: 1fr;
@@ -139,6 +145,7 @@ h1 {
   border-radius: 2px;
 }
 
+/* Estilos para los elementos de la lista de navegación */
 nav {
   margin-top: 3vh;
   overflow-x: auto;
@@ -196,6 +203,7 @@ nav a:hover {
   transform: translateY(5px);
 }
 
+/* Estilos para los eventos */
 #trending-events {
   position: relative;
   background-color: transparent;
@@ -274,6 +282,8 @@ nav a:hover {
   grid-template-columns: repeat(2, 1fr);
 }
 
+
+/* Estilos para las tarjetas de eventos */
 .event-card {
   background-color: hsl(var(--card));
   border-radius: 0.5rem;
