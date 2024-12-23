@@ -7,4 +7,4 @@ El diseño se trata de ser lo mas limpio y moderno, con uso de íconos y fuentes
 
 Este código está estructurado con HTML y estilizado usando CSS, haciendo uso de bibliotecas como Font Awesome para los íconos y Material Icons para mejorar la experiencia del usuario.
 Tiene una pagina extra donde puede observar todos los elementos 
-https://adorable-lokum-b557da.netlify.app/
+https://eventosconectadosdhm.netlify.app/
