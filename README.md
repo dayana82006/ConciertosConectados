@@ -1,10 +1,33 @@
-# DayanaHernandez_EventMobile
-Este proyecto es una página web que muestra eventos de entretenimiento populares y próximos.
-Encabezado: Incluye un menú de navegación con íconos para notificaciones y un campo de búsqueda de eventos.
-Eventos Populares: Presenta una sección con eventos destacados, como conciertos, con detalles sobre fecha, ubicación y precio. Los eventos están mostrados en un carrusel interactivo.
-Eventos Cercanos: Muestra una lista de eventos disponibles cerca del usuario, con una vista en cuadrícula de tarjetas que incluyen imágenes, información sobre la ubicación, fecha y precios.
-El diseño se trata de ser lo mas limpio y moderno, con uso de íconos y fuentes de Google, y la funcionalidad interactiva de notifacion se maneja con JavaScript.
+# 🎶 **Conciertos Conectados** 🚀
 
-Este código está estructurado con HTML y estilizado usando CSS, haciendo uso de bibliotecas como Font Awesome para los íconos y Material Icons para mejorar la experiencia del usuario.
-Tiene una pagina extra donde puede observar todos los elementos 
-https://eventosconectadosdhm.netlify.app/
+¡Bienvenido a **Conciertos Conectados**! Este proyecto es una **plataforma web interactiva** dedicada a la promoción y venta de entradas para eventos en vivo, como conciertos, teatro y espectáculos deportivos. El objetivo es ofrecer a los usuarios una experiencia sencilla y atractiva para descubrir y asistir a eventos cercanos.
+
+Puedes ver el proyecto en vivo aquí: [Conciertos Conectados](https://eventosconectadosdhm.netlify.app/)
+
+---
+
+## 🛠️ **Tecnologías Utilizadas**  
+
+- **HTML**: Para la estructura y el contenido de la página.
+- **CSS**: Para los estilos visuales y la maquetación.
+  
+---
+
+## 🎯 **Objetivo del Proyecto**
+
+**Conciertos Conectados** tiene como objetivo:
+
+- **Presentar eventos en vivo**: Explorar conciertos, teatro y deportes.
+- **Facilitar la compra de entradas** para eventos en una plataforma intuitiva.
+- **Brindar una experiencia responsive** para cualquier dispositivo (móvil, tablet, PC).
+
+---
+
+## 🚀 **Características**
+
+- **Interfaz Atractiva**: Diseño limpio y fácil de navegar.
+- **Responsive**: Se adapta perfectamente a dispositivos móviles, tabletas y computadoras.
+- **Sección de Eventos**: Muestra los eventos destacados, con información clave sobre los mismos.
+- **Sección de Contacto**: Enlaces para contactar al creador del proyecto y seguirlo en redes sociales.
+
+---
